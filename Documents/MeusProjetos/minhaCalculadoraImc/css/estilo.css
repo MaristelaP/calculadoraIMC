@@ -2,4 +2,33 @@ body{
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     color: #333;
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    border: 0;
+    background: linear-gradient(
+        to bottom right,
+        #0a516d 0%, #018790 40%, #7dad93 60%, #bacca4 100%
+    );
+
+}
+.form{
+    background-color: #bacca4;
+    height: 240px;
+    width: 450px;
+    border-radius: 20px;
+    margin: 20px auto 20px auto;
+    display: block;
+    border: solid 1px #289df6;
+    box-shadow: 0 0 40px #333;
+}
+/*
+.form:hover{
+
+}*/
+.rowOne{
+    padding: 20px;        
+}
+.rowTwo{
+    padding: 20px;
 }
