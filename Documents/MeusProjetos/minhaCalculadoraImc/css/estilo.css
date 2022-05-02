@@ -12,6 +12,13 @@ body{
     );
 
 }
+/*
+h3{
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+*/
 .form{
     background-color: #bacca4;
     height: 240px;
@@ -31,4 +38,70 @@ body{
 }
 .rowTwo{
     padding: 20px;
+}
+.textInput{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px; 
+    background-color:  #dbeffe;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.textInput:last-child{
+    margin-bottom: 35px;
+}
+.textInput:hover{
+    background-color: #a1defa;
+}
+#submit{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    border: solid 1px #0a516d;
+    box-shadow: 0 0 10px #0a516d;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    background: linear-gradient(
+        to bottom right,
+        #0a516d 0%, #018790 40%, #7dad93 60%, #bacca4 100%);
+    color: #333;
+    margin: auto;
+    display: block;
+    outline: none;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #0a516d;
+}
+.text {
+    display: inline-block;
+    margin: 5px 20px 5px 8px;
+}
+.rowOne{
+    padding: 30px 20px 15px 20px;
+}
+.rowTwo{
+    padding: 15px 20px 30px 20px;
+}
+.container{
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+.container input{
+    position: absolute;
+    opacity: 0;
+}
+.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #dbeffe;
+    border-radius: 50%;
 }
