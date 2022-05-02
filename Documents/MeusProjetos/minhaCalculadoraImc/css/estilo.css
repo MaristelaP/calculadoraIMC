@@ -12,13 +12,12 @@ body{
     );
 
 }
-/*
+
 h3{
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    font-size: 25px;
 }
-*/
+
 .form{
     background-color: #bacca4;
     height: 240px;
@@ -31,7 +30,6 @@ h3{
 }
 /*
 .form:hover{
-
 }*/
 .rowOne{
     padding: 20px;        
